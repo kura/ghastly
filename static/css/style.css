@@ -528,7 +528,7 @@ h1.blog-title a {
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
-    font-family: FiraSan, 'Noto Serif', serif;
+    font-family: FiraSans, 'Noto Serif', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
 }
