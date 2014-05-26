@@ -52,6 +52,8 @@ Article
 
 .. image:: https://raw.githubusercontent.com/kura/ghastly/master/article.png
 
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article-cont.png
+
 License
 =======
 
