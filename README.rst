@@ -45,7 +45,7 @@ Screenshots
 Homepage
 --------
 
-.. image:: hhttps://raw.githubusercontent.com/kura/ghastly/master/homepage.png
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/homepage.png
 
 Article
 -------
