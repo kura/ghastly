@@ -2,7 +2,7 @@
 Ghastly
 =======
 
-Ghastly is a clean and minimal theme for `Pelican http://getpelican.com>`__
+Ghastly is a clean and minimal theme for `Pelican <http://getpelican.com>`__
 based on the Casper default theme for `Ghost <https://ghost.org/>`__.
 
 Supports Disqus out of the box.
