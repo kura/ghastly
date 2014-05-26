@@ -279,6 +279,10 @@ div#contents p {
     margin: 1em 0;
 }
 
+div#contents li a {
+    text-decoration: none;
+}
+
 p, ul, ol, dl {
     margin: 1.6em 0;
 }
