@@ -45,12 +45,12 @@ Screenshots
 Homepage
 --------
 
-.. image:: https://github.com/kura/ghastly/blob/master/homepage.png
+.. image:: hhttps://raw.githubusercontent.com/kura/ghastly/master/homepage.png
 
 Article
 -------
 
-.. image:: https://github.com/kura/ghastly/blob/master/article.png
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article.png
 
 License
 =======
