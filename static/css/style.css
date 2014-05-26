@@ -200,7 +200,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: 'Noto Serif', serif;
+    font-family: FiraSans, 'Noto Serif', serif;
     font-size: 2.0rem;
     line-height: 1.6em;
     color: #3A4145;
@@ -348,7 +348,7 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: 'FiraMono', Inconsolata, monospace, sans-serif;
+    font-family: FiraMono, Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre-wrap;
     border: 1px solid #E3EDF3;
