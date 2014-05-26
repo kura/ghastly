@@ -50,9 +50,11 @@ Homepage
 Article
 -------
 
-.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article.png
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article1.png
 
-.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article-cont.png
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article2.png
+
+.. image:: https://raw.githubusercontent.com/kura/ghastly/master/article3.png
 
 License
 =======
