@@ -276,7 +276,7 @@ div#contents p {
     letter-spacing: -1px;
     text-indent: -2px;
     font-weight: bold;
-    margin: 0;
+    margin: 1em 0;
 }
 
 p, ul, ol, dl {
