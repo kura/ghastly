@@ -55,7 +55,7 @@ This does mean pages become quite pointless.
 Typography
 ==========
 
-.. figure:: /images/firasans.png
+.. figure:: https://raw.githubusercontent.com/kura/ghastly/master/firasans.png
     :alt: FiraSans map of the World
 
     (Image by `the guys at Carrois, creators of FiraSans <http://dev.carrois.com/fira-3-1/>`__)
