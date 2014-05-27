@@ -1,54 +1,75 @@
-=======
-Ghastly
-=======
+Ghastly - A theme for Pelican
+#############################
+:date: 2014-05-26 23:00
+:author: kura
+:tags: pelican, ghost
+:slug: ghastly
 
-Ghastly is a clean and minimal theme for `Pelican <http://getpelican.com>`__
-based on the Casper default theme for `Ghost <https://ghost.org/>`__.
+.. contents::
 
-Supports Disqus out of the box.
+.. figure:: /images/gastly.png
+    :alt: Gastly, the Ghost Pokemon
 
-Supports Pygments out of the box.
+    (Image by `Raiba-art <http://raiba-art.deviantart.com/art/Gastly-294533100>`__)
 
-It DOES NOT support Google Analytics out of the box, because I do not use it. Adding
-the tracking script to `base.html` is a simple task though.
+Introduction
+============
+
+I'd like to introduce Ghastly, a clean and minimal, lightweight theme for the
+`Pelican <http://getpelican.com>`__ blogging platform.
+
+Ghastly is based heavily off of Casper, the default theme for
+`Ghost <https://ghost.org>`__.
+
+
+It's name is derived from the the D&D monster, the Ghast and Gastly, the
+Pokemon.
+
+
+Features
+========
+
+- Disqus
+- Pygments
+- CSS & JS minifying using webassets
+- Share buttons
+- Custom 404 page
+
+Missing Features
+----------------
+
+- Templates are free from all tracking engines like Google Analytics,
+  although adding tracking is as simple as editing the HTML.
+
+Design concessions
+==================
+
+The Casper theme is designed purely for blog posts and as such it is hard
+to easily create any kind of menu for it without ruining the overall design.
+
+I continued this with Ghastly because to me, the articles are more important
+than a menu.
+
+This does mean pages become quite pointless.
 
 Typography
 ==========
 
-Ghastly uses the `Fira Sans <http://dev.carrois.com/fira-3-1/>`__ font. For 
-pre blocks it uses Fira Mono.
+.. figure:: /images/firasans.png
+    :alt: FiraSans map of the World
 
-Requirements
-============
+    (Image by `the guys at Carrois, creators of FiraSans <http://dev.carrois.com/fira-3-1/>`__)
 
-- pelican
-- webassets
-- cssmin
-- pelican webassets
+The guys at `Carrois <http://dev.carrois.com/fira-3-1/>`__ created FiraSans for
+Mozilla and released it to the world for free.
 
-.. code::
-
-    pip install pelican webassets cssmin
-
-You can find pelican webassets at `https://github.com/getpelican/pelican-plugins/tree/master/assets <https://github.com/getpelican/pelican-plugins/tree/master/assets>`__.
-
-Configuration
-=============
-
-.. code:: python
-
-    DIRECT_TEMPLATES = (('index', 'archives', '404'))
+The Ghastly theme uses both FiraSans for general typography and FiraMono for
+`code`, `kbd`, `pre` and `samp` blocks.
 
 Screenshots
 ===========
 
-Homepage
---------
-
 .. image:: https://raw.githubusercontent.com/kura/ghastly/master/homepage.png
-
-Article
--------
 
 .. image:: https://raw.githubusercontent.com/kura/ghastly/master/article1.png
 
@@ -56,7 +77,34 @@ Article
 
 .. image:: https://raw.githubusercontent.com/kura/ghastly/master/article3.png
 
+Requirements
+============
+
+- pelican
+- webassets
+- cssmin
+- pelican webassets from `pelican-plugins <https://github.com/getpelican/pelican-plugins/tree/master/assets>`__
+
+.. code:: bash
+
+    pip install pelican webassets cssmin
+
+Installation
+============
+
+You can find Ghastly `on GitHub <https://github.com/kura/ghastly>`__ and you
+can find installation instructions for themes in the `pelican documentation
+<http://docs.getpelican.com/en/latest/pelican-themes.html>`__.
+
+Configuration
+=============
+
+.. code:: python
+
+    THEME = 'ghastly'
+    DIRECT_TEMPLATES = (('index', 'archives', '404'))
+
 License
 =======
 
-MIT, a copy of the license is in the root of this project.
+Ghastly is released under the `MIT license <https://github.com/kura/ghastly/blob/master/LICENSE>`__.
